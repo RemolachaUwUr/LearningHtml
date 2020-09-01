@@ -1,0 +1,118 @@
+* {
+  margin: 0px ;
+  padding: 0;
+}
+
+
+
+
+
+h2 {
+  font-size: 30px;
+  /*Change the size of the font*/
+  font-family:sans-serif;
+  /*change the font type*/
+  font-weight: bold;
+  /*this change the atribute of the font */
+
+}
+h1 {
+
+
+  font: bold 14px sans-serif;
+}
+
+header, section footer, aside, nav, article, hgroup{
+/*  border: 1px solid black;*/
+  /*add the tags selected is callinga border where is the limit of each element */
+  display: block;
+}
+body{
+  text-align: center;
+}
+
+.agrupar{
+  background: #74b9ff;
+  width: 960px;
+  margin: 15px auto;
+  /* sirve para ajustar la posicion de un bloque */
+/*  margin-top: 59px;*/
+/*padding: 100px;*/
+}
+
+.header{
+  background: #81ecec;
+  border: 1px solid #99999;
+  padding: 20px ;
+}
+.menu{
+  background: #82ccdd;
+  padding: 5px,15px;
+  text-align: left;
+  /*padding borde interior*/
+}
+
+.menu li{
+  list-style: none;
+  /*esto quita todos los efectos de la lista como los puntitos */
+
+  padding: 5px;
+  font: bold 14px verdana;
+  display: inline-block;
+
+
+}
+/*Esta regla se puede usar para ser mas especificos iniciando de derecha a izquierda todos los elementos li que esten dentro de . clase menu*/
+
+
+.header h2 {
+  text-align: left;
+
+}
+
+.section {
+  margin: 20px;
+  width: 600px;
+  float: left;
+}
+.columna{
+width: 200px;
+float: left;
+
+margin: 20px 0;
+}
+.pie{
+  clear:both;
+  padding: 20px;
+  background: #55E6C1;
+}
+
+.columna blockquote{
+  border: 2px solid black;
+  padding: 50px;
+  margin-bottom: 20px;
+  background: #58B19F;
+}
+
+.section article{
+ background: #25CCF7;
+ border: 1px solid black;
+ padding: 20px;
+ margin-bottom: 15px;
+}
+
+article footer {
+  text-align: right;
+  margin-top: 20px;
+}
+
+time{
+  color: white;
+
+}
+img {
+  width: 300px;
+  display: block;
+  margin: 20px auto;
+
+}

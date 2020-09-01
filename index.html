@@ -5,83 +5,94 @@
 
       <title>Primer Pagina Web</title>
       <!-- In this part you only are editing the head of the site -->
+      <link rel="stylesheet" href="style.css">
+      <!-- When u use . u are calling a class in the stylesheet and if u use # u r calling an ID -->
+      <!-- BTW Link is used to call an archive rel is how is related en href is the path -->
 </head>
 
 
 <!-- The body is where is located all the content -->
 
 <body>
-      <header>
-            Mi blog
-            <!-- This is diferrent of the head the header or cabezal its the part that is on the top of the site but not outside the page u know the top aligment -->
-      </header>
-      <nav>
-            <!-- this part is the navigation part in other words its the part where u can see the menus -->
-            <ul>
-                  <li>Principal</li>
-                  <li>Ayuda </li>
-                  <li>Contacto</li>
-            </ul>
-      </nav>
+      <div class="agrupar">
+            <!--The function of the div is divide a site in sections but not section like phisicals -->
+            <header class="header">
+                  <h2>Mi blog</h2>
+                  <!-- This is diferrent of the head the header or cabezal its the part that is on the top of the site but not outside the page u know the top aligment -->
+            </header>
+            <nav class="menu">
+                  <!-- this part is the navigation part in other words its the part where u can see the menus -->
+                  <ul>
+                        <li>Principal</li>
+                        <li>Ayuda </li>
+                        <li>Contacto</li>
+                  </ul>
+            </nav>
 
 
-      <section>
-            <!-- Each paragraph its separate or the content in sections where is all the information of this OR MAIN CONTENT -->
-            <article class="">
-                  <!-- Each article its separated in articles -->
-                  <hgroup>
-                        <h2>Titulo del primer articulo</h2>
-                        <h1>Subtitulo del primer articulo</h1>
-                  </hgroup>
-                  <time datetime="12-10-2018">Publicado el 12-10-2018</time>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                  </p>
-                  <footer>
-                        <p>Comentarios (0)</p>
+            <section class="section">
+                  <!-- Each paragraph its separate or the content in sections where is all the information of this OR MAIN CONTENT -->
+                  <article class="">
+                        <!-- Each article its separated in articles -->
+                        <hgroup>
+                              <h2>Titulo del primer articulo</h2>
+                              <h1>Subtitulo del primer articulo</h1>
+                        </hgroup>
+                        <time datetime="12-10-2018">Publicado el 12-10-2018</time>
+                        <p class="green">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                              ex ea commodo
+                              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                              laborum.
+                        </p>
 
-                  </footer>
-                  <address class="">
-                        <a href="http://google.com">      <img src="https://cdn.discordapp.com/avatars/283758743521591299/dc745666818406af751d67e89a2e1123.png?size=128" alt="" ></a>
-                        <!-- i did a combination of two tags first i did an a ref that in simple words its a link but you have the possibilty to write something inside using the same logic i decided to put an image -->
-                  </address>
+                        <address class="">
+                              <a href="http://google.com"> <img src="https://cdn.discordapp.com/avatars/283758743521591299/dc745666818406af751d67e89a2e1123.png?size=128" alt=""></a>
+                              <!-- i did a combination of two tags first i did an a ref that in simple words its a link but you have the possibilty to write something inside using the same logic i decided to put an image -->
+                        </address>
 
+                        <footer>
+                              <p>Comentarios (0)</p>
 
-            </article>
-            <article class="">
-                  <!-- Each article its separated in articles -->
-                  <hgroup>
-                        <h2>Titulo del segundo articulo</h2>
-                        <h1>Subtitulo del segundo articulo</h1>
-                  </hgroup>
-                  <time datetime="12-10-2018">Publicado el 12-10-2018</time>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                  </p>
-                  <footer>
-                        <p>Comentarios (10)</p>
+                        </footer>
+                  </article>
+                  <article class="">
+                        <!-- Each article its separated in articles -->
+                        <hgroup>
+                              <h2>Titulo del segundo articulo</h2>
+                              <h1>Subtitulo del segundo articulo</h1>
+                        </hgroup>
+                        <time datetime="12-10-2018">Publicado el 12-10-2018</time>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                              laborum.
+                        </p>
 
-                  </footer>
+                        <img src="https://i.pinimg.com/originals/ba/b2/39/bab23986219eec14dee6332b71011b8c.jpg" alt="">
+                        <footer>
+                              <p>Comentarios (10)</p>
 
-                  <img src="https://i.pinimg.com/originals/ba/b2/39/bab23986219eec14dee6332b71011b8c.jpg" alt="">
-            </article>
-      </section>
-      <aside class="">
-            <!-- This part is aside of the content or section -->
-            <blockquote cite="http://">
+                        </footer>
 
-                  Mensaje 1
-            </blockquote>
-            <blockquote cite="http://">
-                  Mensaje 2
+                  </article>
+            </section>
+            <aside class="columna">
+                  <!-- This part is aside of the content or section -->
+                  <blockquote cite="http://">
 
-            </blockquote>
+                        Mensaje 1
+                  </blockquote>
+                  <blockquote cite="http://">
+                        Mensaje 2
 
-      </aside>
-      <footer>
-            <!-- Finally the footer the part that is at the end of the page -->
-            Derechos reservados 2010-2020
-      </footer>
+                  </blockquote>
+
+            </aside>
+            <footer class="pie">
+                  <!-- Finally the footer the part that is at the end of the page -->
+                  Derechos reservados 2010-2020
+            </footer>
+      </div>
+
 </body>
 
 </html
